@@ -13,7 +13,21 @@
 		DBD360191E0BE0C900DDD7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD360181E0BE0C900DDD7B3 /* Assets.xcassets */; };
 		DBD3601C1E0BE0C900DDD7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD3601A1E0BE0C900DDD7B3 /* LaunchScreen.storyboard */; };
 		DBD360241E0BE2D100DDD7B3 /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */; };
+		DBD360261E0BE73400DDD7B3 /* SwiftSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBD360251E0BE72C00DDD7B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBD360261E0BE73400DDD7B3 /* SwiftSocket.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DBD3600E1E0BE0C900DDD7B3 /* iOSRaspiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRaspiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +92,7 @@
 				DBD3600A1E0BE0C900DDD7B3 /* Sources */,
 				DBD3600B1E0BE0C900DDD7B3 /* Frameworks */,
 				DBD3600C1E0BE0C900DDD7B3 /* Resources */,
+				DBD360251E0BE72C00DDD7B3 /* CopyFiles */,
 			);
 			buildRules = (
 			);

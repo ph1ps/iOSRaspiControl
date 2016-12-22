@@ -13,7 +13,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let client = TCPClient(address: "www.apple.com", port: 80)
+
+        let port = 2345
+        
+        let client = UDPClient(address: "172.17.27.255", port: 6969)
+        client.enableBroadcast()
+        let _ = client.send(string: "\(port)")
+        client.close()
     }
 
     override func didReceiveMemoryWarning() {
