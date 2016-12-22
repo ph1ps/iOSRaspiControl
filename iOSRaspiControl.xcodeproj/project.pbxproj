@@ -12,9 +12,40 @@
 		DBD360171E0BE0C900DDD7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD360151E0BE0C900DDD7B3 /* Main.storyboard */; };
 		DBD360191E0BE0C900DDD7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD360181E0BE0C900DDD7B3 /* Assets.xcassets */; };
 		DBD3601C1E0BE0C900DDD7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD3601A1E0BE0C900DDD7B3 /* LaunchScreen.storyboard */; };
-		DBD360241E0BE2D100DDD7B3 /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */; };
-		DBD360261E0BE73400DDD7B3 /* SwiftSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBD3603B1E0C016A00DDD7B3 /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */; };
+		DBD3603C1E0C017300DDD7B3 /* SwiftSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD360331E0C015C00DDD7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA691DCDE40200009697;
+			remoteInfo = "SwiftSocket iOS";
+		};
+		DBD360351E0C015C00DDD7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA761DCDE45D00009697;
+			remoteInfo = "SwiftSocket macOS";
+		};
+		DBD360371E0C015C00DDD7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37454ECA1E06158200800AE5;
+			remoteInfo = "SwiftSocket tvOS";
+		};
+		DBD360391E0C015C00DDD7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 375C482D1DDC4C56008C701D;
+			remoteInfo = "iOS Example";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		DBD360251E0BE72C00DDD7B3 /* CopyFiles */ = {
@@ -23,7 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DBD360261E0BE73400DDD7B3 /* SwiftSocket.framework in CopyFiles */,
+				DBD3603C1E0C017300DDD7B3 /* SwiftSocket.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +68,7 @@
 		DBD360181E0BE0C900DDD7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD3601B1E0BE0C900DDD7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD3601D1E0BE0C900DDD7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSocket.framework; path = Carthage/Build/iOS/SwiftSocket.framework; sourceTree = "<group>"; };
+		DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSocket.xcodeproj; path = SwiftSocket/SwiftSocket.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD360241E0BE2D100DDD7B3 /* SwiftSocket.framework in Frameworks */,
+				DBD3603B1E0C016A00DDD7B3 /* SwiftSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +86,7 @@
 		DBD360051E0BE0C900DDD7B3 = {
 			isa = PBXGroup;
 			children = (
-				DBD360231E0BE2D100DDD7B3 /* SwiftSocket.framework */,
+				DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */,
 				DBD360101E0BE0C900DDD7B3 /* iOSRaspiControl */,
 				DBD3600F1E0BE0C900DDD7B3 /* Products */,
 			);
@@ -80,6 +111,17 @@
 				DBD3601D1E0BE0C900DDD7B3 /* Info.plist */,
 			);
 			path = iOSRaspiControl;
+			sourceTree = "<group>";
+		};
+		DBD3602D1E0C015B00DDD7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */,
+				DBD360361E0C015C00DDD7B3 /* SwiftSocket.framework */,
+				DBD360381E0C015C00DDD7B3 /* SwiftSocket.framework */,
+				DBD3603A1E0C015C00DDD7B3 /* iOS Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,12 +173,49 @@
 			mainGroup = DBD360051E0BE0C900DDD7B3;
 			productRefGroup = DBD3600F1E0BE0C900DDD7B3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DBD3602D1E0C015B00DDD7B3 /* Products */;
+					ProjectRef = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DBD3600D1E0BE0C900DDD7B3 /* iOSRaspiControl */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = DBD360331E0C015C00DDD7B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBD360361E0C015C00DDD7B3 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = DBD360351E0C015C00DDD7B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBD360381E0C015C00DDD7B3 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = DBD360371E0C015C00DDD7B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBD3603A1E0C015C00DDD7B3 /* iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Example.app";
+			remoteRef = DBD360391E0C015C00DDD7B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DBD3600C1E0BE0C900DDD7B3 /* Resources */ = {
@@ -282,6 +361,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = iOSRaspiControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -299,6 +379,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = iOSRaspiControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
