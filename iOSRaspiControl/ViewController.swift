@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import SwiftSocket
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let client = TCPClient(address: "www.apple.com", port: 80)
     }
 
     override func didReceiveMemoryWarning() {
