@@ -38,13 +38,6 @@
 			remoteGlobalIDString = 37454ECA1E06158200800AE5;
 			remoteInfo = "SwiftSocket tvOS";
 		};
-		DBD360391E0C015C00DDD7B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 375C482D1DDC4C56008C701D;
-			remoteInfo = "iOS Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,7 +112,6 @@
 				DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */,
 				DBD360361E0C015C00DDD7B3 /* SwiftSocket.framework */,
 				DBD360381E0C015C00DDD7B3 /* SwiftSocket.framework */,
-				DBD3603A1E0C015C00DDD7B3 /* iOS Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,13 +198,6 @@
 			fileType = wrapper.framework;
 			path = SwiftSocket.framework;
 			remoteRef = DBD360371E0C015C00DDD7B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DBD3603A1E0C015C00DDD7B3 /* iOS Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "iOS Example.app";
-			remoteRef = DBD360391E0C015C00DDD7B3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -408,6 +393,7 @@
 				DBD360221E0BE0C900DDD7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
