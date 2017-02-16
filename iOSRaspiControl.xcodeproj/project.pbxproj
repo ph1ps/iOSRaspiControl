@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		250D323C1E55E1DD00AA2C02 /* Toaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250D32391E55E1D700AA2C02 /* Toaster.framework */; };
-		250D323D1E55E1E000AA2C02 /* Toaster.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 250D32391E55E1D700AA2C02 /* Toaster.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD360121E0BE0C900DDD7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD360111E0BE0C900DDD7B3 /* AppDelegate.swift */; };
 		DBD360141E0BE0C900DDD7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD360131E0BE0C900DDD7B3 /* ViewController.swift */; };
 		DBD360171E0BE0C900DDD7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD360151E0BE0C900DDD7B3 /* Main.storyboard */; };
@@ -19,16 +17,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		250D32381E55E1D700AA2C02 /* PBXContainerItemProxy */ = {
+		250D32431E55EF3600AA2C02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 250D32331E55E1D700AA2C02 /* Toaster.xcodeproj */;
+			containerPortal = 250D323E1E55EF3500AA2C02 /* Toaster.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 03A75E2B1BCF2066002E46C4;
 			remoteInfo = Toaster;
 		};
-		250D323A1E55E1D700AA2C02 /* PBXContainerItemProxy */ = {
+		250D32451E55EF3600AA2C02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 250D32331E55E1D700AA2C02 /* Toaster.xcodeproj */;
+			containerPortal = 250D323E1E55EF3500AA2C02 /* Toaster.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 03A75E4F1BCF20D4002E46C4;
 			remoteInfo = ToasterDemo;
@@ -63,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				250D323D1E55E1E000AA2C02 /* Toaster.framework in CopyFiles */,
 				DBD3603C1E0C017300DDD7B3 /* SwiftSocket.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		250D32331E55E1D700AA2C02 /* Toaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Toaster.xcodeproj; path = "../../../Downloads/Toaster-master/Toaster.xcodeproj"; sourceTree = "<group>"; };
+		250D323E1E55EF3500AA2C02 /* Toaster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Toaster.xcodeproj; path = Toaster/Toaster.xcodeproj; sourceTree = "<group>"; };
 		DBD3600E1E0BE0C900DDD7B3 /* iOSRaspiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRaspiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD360111E0BE0C900DDD7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD360131E0BE0C900DDD7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250D323C1E55E1DD00AA2C02 /* Toaster.framework in Frameworks */,
 				DBD3603B1E0C016A00DDD7B3 /* SwiftSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,11 +91,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		250D32341E55E1D700AA2C02 /* Products */ = {
+		250D323F1E55EF3500AA2C02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				250D32391E55E1D700AA2C02 /* Toaster.framework */,
-				250D323B1E55E1D700AA2C02 /* ToasterDemo.app */,
+				250D32441E55EF3600AA2C02 /* Toaster.framework */,
+				250D32461E55EF3600AA2C02 /* ToasterDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +103,7 @@
 		DBD360051E0BE0C900DDD7B3 = {
 			isa = PBXGroup;
 			children = (
-				250D32331E55E1D700AA2C02 /* Toaster.xcodeproj */,
+				250D323E1E55EF3500AA2C02 /* Toaster.xcodeproj */,
 				DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */,
 				DBD360101E0BE0C900DDD7B3 /* iOSRaspiControl */,
 				DBD3600F1E0BE0C900DDD7B3 /* Products */,
@@ -200,8 +196,8 @@
 					ProjectRef = DBD3602C1E0C015B00DDD7B3 /* SwiftSocket.xcodeproj */;
 				},
 				{
-					ProductGroup = 250D32341E55E1D700AA2C02 /* Products */;
-					ProjectRef = 250D32331E55E1D700AA2C02 /* Toaster.xcodeproj */;
+					ProductGroup = 250D323F1E55EF3500AA2C02 /* Products */;
+					ProjectRef = 250D323E1E55EF3500AA2C02 /* Toaster.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -212,18 +208,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		250D32391E55E1D700AA2C02 /* Toaster.framework */ = {
+		250D32441E55EF3600AA2C02 /* Toaster.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Toaster.framework;
-			remoteRef = 250D32381E55E1D700AA2C02 /* PBXContainerItemProxy */;
+			remoteRef = 250D32431E55EF3600AA2C02 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		250D323B1E55E1D700AA2C02 /* ToasterDemo.app */ = {
+		250D32461E55EF3600AA2C02 /* ToasterDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = ToasterDemo.app;
-			remoteRef = 250D323A1E55E1D700AA2C02 /* PBXContainerItemProxy */;
+			remoteRef = 250D32451E55EF3600AA2C02 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		DBD360341E0C015C00DDD7B3 /* SwiftSocket.framework */ = {
