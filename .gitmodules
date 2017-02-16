@@ -1,3 +1,6 @@
 [submodule "SwiftSocket"]
 	path = SwiftSocket
 	url = https://github.com/ph1ps/SwiftSocket
+[submodule "Toaster"]
+	path = Toaster
+	url = https://github.com/devxoul/Toaster
