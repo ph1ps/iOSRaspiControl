@@ -7,3 +7,5 @@ node index.js
 ```
 ### Schaltplan:
 ![alt text](schaltplan.png "Schaltplan")
+<b>R<sub>1</sub></b> = 270Ω <br>
+<b>R<sub>2</sub></b> = 820Ω
