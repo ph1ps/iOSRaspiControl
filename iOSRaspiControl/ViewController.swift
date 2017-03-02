@@ -7,7 +7,6 @@
 //
 
 import UIKit
-//import SwiftSocket
 import Toaster
 
 class ViewController: UIViewController {
@@ -24,9 +23,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var lightshowActivity: UIActivityIndicatorView!
     
     var pins = [Int: UISwitch]()
-    
-    var ip: [String] = []
     var toast: Toast? = nil
+    
+    let ip = "http://172.17.27.151:3000/"
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -59,19 +58,6 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(withTimeInterval: TimeInterval(2), repeats: true) { _ in
             self.updateValues()
         }
-
-        //TODO implement the IP selection with UDP broadcasting
-        /*let client = UDPClient(address: "172.17.27.255", port: 3000)
-        client.enableBroadcast()
-        
-        for _ in 1...3 {
-            let tesst = client.recv(16)
-            let data = String.init(bytes: tesst.0!, encoding: .ascii)
-            ip.append(data!)
-            print(data!)
-        }
-        
-        client.close()*/
     }
     
     func convertToDictionary(text: String) -> [String: Any]? {
@@ -125,7 +111,7 @@ class ViewController: UIViewController {
     }
     
     func sendRequest(with request: String, completion: ((String) -> Void)?) {
-        let endpoint = "http://172.17.27.131:3000/" + request
+        let endpoint = ip + request
 
         
         guard let url = URL(string: endpoint) else {
@@ -158,7 +144,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func toggle(_ sender: UISwitch) {
-        
         guard let pin = pins.first(where: { (key, value) in value == sender }) else {
             return
         }
