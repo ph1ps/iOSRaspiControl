@@ -1,5 +1,9 @@
 # iOSRaspiControl
-### Start backend
-`node ./NodeRoot/index.js` on the Raspberry Pi
+### Install dependencies and start backend
+```shell
+cd ./NodeRoot
+npm install
+node index.js
+```
 ### Schaltplan:
 ![alt text](schaltplan.png "Schaltplan")
