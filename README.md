@@ -1,4 +1,5 @@
 # iOSRaspiControl
+<b>Bastian Brandstötter, Philipp Gabriel, Christoph Kern</b>
 ### Clone
 `git clone --recursive https://github.com/ph1ps/iOSRaspiControl.git`
 ##### This clones all submodules and the repository
